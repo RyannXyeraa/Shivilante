@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "shivilante",
+	"version": "${version}",
+	"name": "Shivilante",
+	"description": "Adding super cool stuff in your minecraft!",
+	"authors": [
+        {
+    		"name": "RyannXyeraa",
+            "contact": {
+                "homepage": "https://github.com/RyannXyeraa/"
+            }
+        }
+	],
+	"contact": {
+		"sources": "https://github.com/RyannXyeraa/Shivilante"
+	},
+	"license": "MIT",
+	"icon": "assets/shivilante/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.rian.shivilante.Shivilante"
+		],
+		"fabric-datagen": [
+			"com.rian.shivilante.ShivilanteDataGenerator"
+		]
+	},
+	"mixins": [
+		"shivilante.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
