@@ -5,15 +5,11 @@
 	"name": "Shivilante",
 	"description": "Adding super cool stuff in your minecraft!",
 	"authors": [
-        {
-    		"name": "RyannXyeraa",
-            "contact": {
-                "homepage": "https://github.com/RyannXyeraa/"
-            }
-        }
+        "RyannXyeraa"
 	],
 	"contact": {
-		"sources": "https://github.com/RyannXyeraa/Shivilante"
+		"sources": "https://github.com/RyannXyeraa/Shivilante",
+        "issues": "https://github.com/RyannXyeraa/Shivilante/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/shivilante/icon.png",
